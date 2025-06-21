@@ -1,0 +1,7 @@
+[package]
+name = "cargo2nix-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+secp256k1-sys = { version = "0.11.0", features = ["lowmemory"] }
